@@ -12,10 +12,9 @@
 
 ## Justificativa
 
-# Membros
+## Membros
 
 - Anderson Soares de Santana Junior (Email: andersonsoares.jn@gmail.com)
-- João Pedro de Souza Barros (Email: joaopedrodesouza698@gmail.com)
 - Gustavo de Jesus Oliveira (Email: )
 
 
