@@ -19,7 +19,7 @@ surgiu a proposta de um "AVA 2.0".
 ## Membros
 
 - Anderson Soares de Santana Junior (Email: andersonsoares.jn@gmail.com)
-- Gustavo de Jesus Oliveira (Email: )
+- Gustavo de Jesus Oliveira (Email: 69ggustavoo69@gmail.com)
 
 
 | [<img src="https://avatars.githubusercontent.com/u/89814011?v=4" width=115><br><sub>Gustavo de Jesus de Oliveira</sub>](https://github.com/Gusstavolo) |  [<img src="https://avatars.githubusercontent.com/u/88636005?v=4" width=115><br><sub>Anderson Soares de Santana Junior</sub>](https://github.com/Anderson-Soaress) |  
