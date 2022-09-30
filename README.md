@@ -23,5 +23,5 @@ surgiu a proposta de um "AVA 2.0".
 - Ruth Oliveira Pereira (Email: )
 
 
-| [<img src="https://avatars.githubusercontent.com/u/89814011?v=4" width=115><br><sub>Gustavo de Jesus de Oliveira</sub>](https://github.com/Gusstavolo) |  [<img src="https://avatars.githubusercontent.com/u/88636005?v=4" width=115><br><sub>Anderson Soares de Santana Junior</sub>](https://github.com/Anderson-Soaress) |  
-| :---: | :---: | 
+| [<img src="https://avatars.githubusercontent.com/u/89814011?v=4" width=115><br><sub>Gustavo de Jesus de Oliveira</sub>](https://github.com/Gusstavolo) |  [<img src="https://avatars.githubusercontent.com/u/88636005?v=4" width=115><br><sub>Anderson Soares de Santana Junior</sub>](https://github.com/Anderson-Soaress) | [<img src="https://avatars.githubusercontent.com/u/105013257?v=4" width=115><br><sub> Ruth Oliveira Pereira</sub>](https://github.com/ruuthi)
+| :---: | :---: | :---: |
