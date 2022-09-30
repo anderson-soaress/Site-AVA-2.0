@@ -12,6 +12,10 @@
 
 ## Justificativa
 
+Após uma reunião o trio decidiu desenvolver um site de modo que seja uma nova versão melhorada do ava (plataforma usada durante as AENPS).
+Originalmente o site ava, colabora para o ensino remoto e foi de grande utilidade em tempos pandemicos, durante este processo o site demonstrou algumas falhas. Daí 
+surgiu a proposta de um "AVA 2.0".
+
 ## Membros
 
 - Anderson Soares de Santana Junior (Email: andersonsoares.jn@gmail.com)
