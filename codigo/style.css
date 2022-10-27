@@ -1,0 +1,40 @@
+div{
+    text-align: center;
+    background-color: rgb(49, 40, 53);
+    position : absolute;
+    width: 300px;
+    height: 270px;
+
+    border-radius: 15px;
+    left : 40%;
+    top : 36%;
+    text-indent: 10px;
+
+}
+button{
+    border-radius: 10px;
+    background-color: rgb(136, 8, 255);
+    width: 180px;
+    height: 40px;
+    border: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color : white;
+    
+}
+
+input{
+    padding: 5px;
+    
+}
+
+body{
+    background-image: linear-gradient(45deg, rgb(0, 0, 0),rgb(132, 0, 255)  );
+}
+.login {
+    text-align: left;
+    text-indent: 60px;
+    font-size: 24px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(255, 255, 255);
+    
+}
