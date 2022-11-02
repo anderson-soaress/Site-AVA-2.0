@@ -1,5 +1,5 @@
 header{
-    padding: 30px 40px;
+    padding: 30px 50px;
     background-color: #f1f1f1;
     border-top: rgb(70, 0, 70);
     border-top-style: solid;
@@ -34,7 +34,7 @@ body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
     font-size: 40px;
-    padding: 0;
+    padding: 0 30px;
     margin: 0;
 }
 
@@ -42,7 +42,7 @@ body{
 .menu {
     background-image: linear-gradient(rgb(70, 0, 70),rgb(17, 0, 16));
     overflow: hidden;
-    padding-left: 180px;
+    padding-left: 145px;
 }
 
 .menu a{
@@ -54,11 +54,11 @@ body{
     display : block;
     float : left;
     padding : 20px 50px;
-    margin-left: 50px;
+    margin : 0;
 }
 
 .menu a:hover{
-    background-color: rgb(58, 0, 55);
+    background-color: rgb(70, 0, 66);
 }
 
 .cabecalho{
@@ -121,6 +121,7 @@ body{
     background-image: linear-gradient(50deg,black,rgb(70, 0, 70));
 }
 .base{
+    overflow: hidden;
     text-transform: uppercase;
     text-align: center;
     font-style: bold;
