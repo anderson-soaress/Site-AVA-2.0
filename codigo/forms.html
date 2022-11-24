@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Cadastre-se</title>
+        <link type="text/css" rel="stylesheet" href="css.css">
+    </head>
+    <body>
+        <div class="cadastro">
+            <form>
+                <h2 class="titulo">Cadastro</h2>
+                <div class="esq">
+                    <label for="nome">Nome:</label>
+                </div>
+                <div class="dir">
+                    <input type="text" id="nome">
+                </div>
+                <div class="esq">
+                    <label for="matricula">Matrícula:</label>
+                </div>
+                <div class="dir">
+                    <input type="text" id="matricula">
+                </div>
+                <div class="esq">
+                    <label for="ano">Ano:</label>
+                </div>
+                <div class="dir">
+                    <input list="ano">
+                    <datalist id="ano">
+                        <option value="1°Ano">
+                        <option value="2°Ano">
+                        <option value="3°Ano">
+                    </datalist>     
+                </div>      
+                <div class="esq">
+                    <label for="email">Email:</label>
+                </div>
+                <div class="dir">
+                    <input type="email" id="email">
+                </div>
+                <div class="esq">
+                    <label for="senha">Senha:</label>
+                </div>
+                <div class="dir">
+                    <input type="password" id="senha">
+                </div>
+                <input type="submit">
+        </form>
+        </div>
+    </body>
+</html>
