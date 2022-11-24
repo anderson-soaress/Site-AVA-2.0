@@ -28,7 +28,7 @@ body{
     padding: 0;
 }
 
-#titulo{
+.titulo{
     text-shadow: 1px 1px 2px black, 0 0 25px purple, 0 0 5px darkorchid;
     color : rgb(70, 0, 70);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -135,4 +135,60 @@ body{
     font-size: 20px;
     text-decoration: none;
     color: black;
+}
+
+.cadastro{
+    width: 40%;
+    height: 350px;
+    color:black;
+    background-color: white;
+    padding : 20px 0;
+    margin:10% 25%;
+    border-style: solid;
+    border-color: rgb(216, 216, 216);
+    border-width: 1px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 20px;
+}
+
+.esq{
+    float: left;
+    width: 20%;
+    margin : 5px 0 0 15%;
+}
+
+.dir{
+    float: left;
+    width: 50%;
+    margin-top: 10px;
+}
+input{
+    width: 100%;
+    font-family: Verdana, sans-serif;
+    text-decoration: none;
+    font-style: normal;
+}
+
+input[type=submit]{
+    color: white;
+    background-color: rgb(70, 0, 70);
+    width: 20%;
+    margin-left: 66%;
+    margin-top: 20px;
+    border-radius: 10px;
+    padding : 5px;
+}
+
+label{
+
+    font-family: Verdana, sans-serif;
+    text-decoration: none;
+    font-style: normal;
+}
+
+.cadastro h2{
+    margin : 20px;
+    margin-left: 45px;
+    margin-top: 35px;
+    font-size: 35px;
 }
