@@ -1,0 +1,211 @@
+header{
+    padding: 30px 50px;
+    background-color: #e4e4e4;
+    border-top: rgb(70, 0, 70);
+    border-top-style: solid;
+}
+
+section::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+
+footer{
+    border-top-style: solid;
+    border-top-color: black;
+    border-top-width: 1px;
+    margin-top: 100px;
+    background-image: linear-gradient(rgb(70, 0, 70),rgb(17, 0, 16));
+    padding: 10px 100px;
+    color: white;
+}
+
+body{
+    background-color: #e4e4e4;
+    margin : 0;
+    padding: 0;
+}
+
+.titulo{
+    text-shadow: 1px 1px 2px black, 0 0 25px purple, 0 0 5px darkorchid;
+    color : rgb(70, 0, 70);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    padding: 0 30px;
+    margin: 0;
+}
+
+
+.menu {
+    background-image: linear-gradient(rgb(70, 0, 70),rgb(17, 0, 16));
+    overflow: hidden;
+    padding-left: 145px;
+}
+
+.menu a{
+    color : white;
+    font-family: Verdana, sans-serif;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: bold;
+    display : block;
+    float : left;
+    padding : 20px 50px;
+    margin : 0;
+}
+
+.menu a:hover{
+    background-color: rgb(70, 0, 66);
+}
+
+.cabecalho{
+    padding : 7px;
+    background-color: rgb(230, 230, 230);
+    border-style: solid;
+    border-color: rgb(201, 201, 201);
+    border-width: 1px;
+   
+}
+
+.cabecalho h4{
+    font-family: Verdana, sans-serif;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: bold;
+    margin : 0 50px;
+    color : rgb(49, 49, 49);
+    padding: 0;
+}
+
+.inicio{
+    border-top-style: solid;
+    border-top-color: rgb(70, 0, 70);
+    border-top-width: 5px;
+    float:left;
+    margin : 60px 2.2% 0;
+    border-radius: 0 0 5px 5px;
+    padding:0;
+    
+}
+
+.inicio.esquerda{
+    padding : 0;
+    background-color: white;
+    width: 60%;
+    height: 800px;
+}
+
+.inicio.direita{
+    background-color: white;
+    width :30%;
+    height: 800px;
+}
+
+.inicio.ferramentas{
+    background-color: white;
+    width: 30%;
+    height: 200px;
+}
+
+.inicio.perfil{
+    background-color: white;
+    width: 60%;
+    height: 300px;
+}
+
+.caixa{
+    float:left;
+    border-style: solid;
+    border-color: rgb(216, 216, 216);
+    border-width: 1px;
+    margin : 40px 6% 20px 6%;
+    width: 37%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 20px;
+}
+
+.fundo{
+    border-radius: 20px 20px 0 0;
+    height: 130px;
+    background-image: linear-gradient(50deg,black,rgb(70, 0, 70));
+}
+.base{
+    overflow: hidden;
+    text-transform: uppercase;
+    text-align: center;
+    font-style: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: white;
+    padding : 15px;
+    border-radius: 0 0 20px 20px;
+}
+
+.base a{
+    font-size: 17px;
+    text-decoration: none;
+    color: black;
+}
+
+.cadastro{
+    width: 30%;
+    height: auto;
+    margin: 10% 35%;
+    padding: 0;
+
+    background-color: white;
+    border-style: solid;
+    border-color: rgb(216, 216, 216);
+    border-width: 1px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.cadastro input[type=text],input[type=password],input[type=email],input[list]{
+    width : 76%;
+    margin : 10% 10% 0% 10%;
+    padding : 2%;
+    border:none;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(70, 0, 70);
+    outline: none;
+}
+
+.cadastro input[type=submit]{
+    width: 80%;
+    margin: 10% 10% 2% 10%;
+    padding: 13px;
+    background-color: rgb(70, 0, 70);
+    color:white;
+    border-radius: 9px;
+    border:none;
+    cursor: pointer;
+}
+
+.cadastro h2{
+    color :rgb(70, 0, 70);
+    margin : 10% 0% 0% 10%;
+    font-size: 35px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.cadastro a{
+    color:rgb(110, 110, 110);
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-style: italic;
+}
+
+.cadastro span{
+    padding : 0 0 0% 11%;
+    color:rgb(110, 110, 110);
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-style: italic;
+}
