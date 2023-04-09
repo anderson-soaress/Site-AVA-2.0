@@ -8,93 +8,98 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
-        <nav>
-            <div class ="menu">
-                <img id="logo" src="https://cdn-icons-png.flaticon.com/512/9727/9727272.png">
-                <ul id="nav_menuprincipal">
+        <nav class="navbar">
 
-                    <!--Menu principal-->
+            <!--Logo-->
 
-                    <div class="menu_principal">
-                        <li><a class="ativo" href="paginainicial.html" >Inicio</a></li>
-                        <li><a href="#">Atividades</a></li>
-                        <li><a href="#">Suap</a></li>
-                        <li><a href="#">Cursos</a></li>
+            <img id="logo" src="https://cdn-icons-png.flaticon.com/512/9727/9727272.png">
+
+            <!--Links-->
+
+            <ul class="nav_links">
+                <li><a class="ativo" href="paginainicial.html" >Inicio</a></li>
+                <li><a href="#">Atividades</a></li>
+                <li><a href="#">Suap</a></li>
+                <li><a href="#">Cursos</a></li>                
+            </ul>
+
+            <!-- Botões com dropdown-->
+
+            <ul class="nav_buttons">
+                
+                <!-- Botão notificação -->
+
+                <li class="nav_button_li">
+                    <img class="nav_button_img" src="https://cdn-icons-png.flaticon.com/512/3293/3293809.png">
+                    <div class="nav_buttons_content" style="right : 40px; min-width: 280px; height: 275px;">
+                        <div class="nav_button_content_notif_head">
+                            <h3>Notificações</h3>
+                        </div>
+                        <ul class="nav_button_content_notif">
+
+                            <li  class="nav_button_content_notif_list">
+                                <a>Mensagens</a>
+                                <div  class="nav_button_content_notif_list_content">
+                                    <div class="nav_button_content_notif_list_content_mensagem">
+                                        <img src="https://cdn-icons-png.flaticon.com/512/3711/3711310.png">
+                                        <p><b>Anderson Soares</b> enviou uma <b>mensagem</b></p>
+                                        <p style="color:rgb(120, 120, 120);font-size: 10px">Há 4 horas</p>
+                                    </div>
+                                    <div class="nav_button_content_notif_list_content_mensagem">
+                                        <img src="https://cdn-icons-png.flaticon.com/512/3711/3711310.png">
+                                        <p><b>Gustavo de Jesus</b> enviou uma <b>mensagem</b></p>
+                                        <p style="color:rgb(120, 120, 120);font-size: 10px">Há 8 horas</p>
+                                    </div>
+                                    <div class="nav_button_content_notif_list_content_mensagem">
+                                        <img src="https://cdn-icons-png.flaticon.com/512/3711/3711310.png">
+                                        <p><b>Ruth Oliveira</b> enviou uma <b>mensagem</b></p>
+                                        <p style="color:rgb(120, 120, 120);font-size: 10px">Há 14 horas</p>
+                                    </div>
+                                    <div class="nav_button_content_notif_list_content_mensagem">
+                                        <img src="https://cdn-icons-png.flaticon.com/512/3711/3711310.png">
+                                        <p><b>Anderson Soares</b> enviou uma <b>mensagem</b></p>
+                                        <p style="color:rgb(120, 120, 120);font-size: 10px">Há 17 horas</p>
+                                    </div>
+                                </div>                                         
+                            </li>
+
+                            <li class="nav_button_content_notif_list" >
+                                <a>Avisos</a>
+                                <div class="nav_button_content_notif_list_content" style="right:0;">
+                                    <div class="nav_button_content_notif_list_content_mensagem">
+                                        <img src="https://cdn-icons-png.flaticon.com/512/3711/3711310.png">
+                                        <p><b>Lazaro Silva</b> enviou uma <b>Tarefa</b></p>
+                                        <p style="color:rgb(120, 120, 120);font-size: 10px">Há 4 horas</p>
+                                    </div>
+                                </div>
+                            </li>
+
+                        </ul>
                     </div>
-                    
+                </li>
 
-                    <!-- Icone do perfil -->
+                <!--Botão perfil-->
 
-                    <li style="float:right;"> 
-                        <div class="icones"> 
-                            <button><img class="iconesimg" src=https://cdn-icons-png.flaticon.com/512/3293/3293334.png></button>
-                            <div style="min-width: 120px;" class="icones_content">
-                                <div class="botao_perfil">
-                                    <a style="margin-top:5px" href="#"><img src="https://cdn-icons-png.flaticon.com/512/3293/3293331.png"><span>Perfil</span></a>
-                                    <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/6737/6737619.png"><span>Resultados</span></a>
-                                    <a style="border-bottom: gray solid 1px; padding-bottom: 8px;"href="#"><img src="https://cdn-icons-png.flaticon.com/512/3178/3178140.png"><span>Configurações</span></a>
-                                    <a style="margin-top:5px" href="#"><img src="https://cdn-icons-png.flaticon.com/128/3168/3168042.png"><span>Sair</span></a>
-                                </div>
-                            </div>
+                <li class="nav_button_li"> 
+                    <img class="nav_button_img" src="https://cdn-icons-png.flaticon.com/512/3293/3293334.png">
+
+                    <div class="nav_buttons_content" style=" right :0; min-width: 160px;">
+                        <div class="nav_button_content_perfil">
+                            <img class="nav_button_content_perfil_img"src="https://cdn-icons-png.flaticon.com/512/3293/3293334.png">
+                            <p style="margin-top: 11px;"><b>Anderson Soares</b></p>
                         </div>
-                    </li> 
-
-                    <!-- Icone do sino -->
-
-                    <li style="float:right;"> 
-                        <div class="icones">
-                            <button><img class="iconesimg" src="https://cdn-icons-png.flaticon.com/512/3293/3293809.png"></button>
-                            <div style="min-width: 280px;"class="icones_content">
-                                <div class="botao_notif">
-                                    <h3>Notificações</h3>
-                                    <ul>
-                                        <li>
-                                            <div  class="lista">
-                                                <a>Mensagens</a>
-                                                <div  class="lista_content">
-                                                    <div class="caixa_mensagem">
-                                                        <img src="https://cdn-icons-png.flaticon.com/512/3711/3711310.png">
-                                                        <p><b>Anderson Soares</b> enviou uma <b>mensagem</b></p>
-                                                        <p style="color:rgb(120, 120, 120);font-size: 10px">Há 4 horas</p>
-                                                    </div>
-                                                    <div class="caixa_mensagem">
-                                                        <img src="https://cdn-icons-png.flaticon.com/512/3711/3711310.png">
-                                                        <p><b>Gustavo de Jesus</b> enviou uma <b>mensagem</b></p>
-                                                        <p style="color:rgb(120, 120, 120);font-size: 10px">Há 8 horas</p>
-                                                    </div>
-                                                    <div class="caixa_mensagem">
-                                                        <img src="https://cdn-icons-png.flaticon.com/512/3711/3711310.png">
-                                                        <p><b>Ruth Oliveira</b> enviou uma <b>mensagem</b></p>
-                                                        <p style="color:rgb(120, 120, 120);font-size: 10px">Há 14 horas</p>
-                                                    </div>
-                                                    <div class="caixa_mensagem">
-                                                        <img src="https://cdn-icons-png.flaticon.com/512/3711/3711310.png">
-                                                        <p><b>Anderson Soares</b> enviou uma <b>mensagem</b></p>
-                                                        <p style="color:rgb(120, 120, 120);font-size: 10px">Há 17 horas</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            
-                                        </li>
-                                        <li>
-                                            <div class="lista">
-                                                <a>Avisos</a>
-                                                <div style="right :0px;"class="lista_content">
-                                                    <div class="caixa_mensagem">
-                                                        <img src="https://cdn-icons-png.flaticon.com/512/3711/3711310.png">
-                                                        <p><b>Lazaro Silva</b> enviou uma <b>Tarefa</b></p>
-                                                        <p style="color:rgb(120, 120, 120);font-size: 10px">Há 4 horas</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
+                        <div class="nav_button_content_perfil">
+                            <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/3293/3293331.png"><p>Perfil</p></a>
+                            <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/6737/6737619.png"><p>Resultados</p></a>
+                            <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/3178/3178140.png"><p>Configurações</p></a>
                         </div>
-                    </li> 
-                </ul>
-            </div>
+                        <div class="nav_button_content_perfil" style="border:none;">
+                            <a href="#"><img src="https://cdn-icons-png.flaticon.com/128/3168/3168042.png"><p>Sair</p></a>
+                        </div>
+                    </div>
+                </li> 
+
+            </ul>
         </nav>
         <section>
             
