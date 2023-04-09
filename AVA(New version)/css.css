@@ -1,0 +1,218 @@
+
+.body{
+  background-color: rgb(0, 0, 0);
+  padding: 0;
+  margin: 0;
+}
+
+/* Barra de navegação */
+
+.menu {
+  display: flex;
+  border : none;
+  margin: -8px -8px 0;
+  border-bottom: rgb(230, 230, 230) solid 1px;
+  box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.2);
+}
+
+#logo {
+  display: inline-block;
+  margin : 0 0 0 30px;
+  width: 40px;
+  height: 40px;
+  background-color:white;
+}
+
+#nav_menuprincipal {
+  position: relative;
+  list-style-type: none;
+  margin: 0;
+  background-color: white;
+  width: 95%;
+}
+
+
+  /* Menu principal */
+
+.menu_principal li {
+  font-family:   Calibri;
+  position : relative;
+  float: left;
+  margin-left: 5px;
+}
+
+.menu_principal a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 10px 0px;
+  margin-right: 20px;
+  text-decoration: none;
+  font-size:15px;
+  font-weight: bold;
+}
+
+.menu_principal a:hover:not(#ativo) {
+  border-bottom: rgb(0, 0, 0) solid 2px;
+}
+
+.ativo{
+  font-weight: bold;
+  border-bottom: rgb(0, 0, 0) solid 2px;
+}
+
+  /* Icones da direita */
+
+.iconesimg{
+  display:block;
+  margin-right: auto;
+  margin-left:auto;
+  width: 22px;
+  height: 22px;
+}
+
+.icones {
+  position: relative;
+  display: inline-block;
+}
+
+.icones button{
+  margin : 10px 22px 0px 0px;
+  height: 22px;
+  width: 22px;
+  border-radius:20px;
+  border-width: 0px;
+  padding:0;
+  cursor: pointer;
+}
+
+.icones_content{
+  display:none;
+  position: absolute;
+  top : 37px;
+  right: 17px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.icones:hover .icones_content {
+  display: block;
+}
+
+  /*Botão do perfil*/
+
+.botao_perfil a {
+  font-family: Calibri;
+  font-size: 12px;
+  color: black;
+  margin : 4px 6px;
+  padding: 6px 8px;
+  text-decoration: none;
+  display: block;
+}
+
+.botao_perfil a:hover {
+  border-radius: 5px;
+  background-color: #f1f1f1
+}
+
+.botao_perfil a img{
+  height: 15px;
+  width: 15px;
+}
+
+.botao_perfil span{
+  margin-left: 5px;
+  position : absolute;
+}
+
+/* Botão da notificação*/
+
+.botao_notif h3{
+  margin : 0;
+  padding : 12px 100px;
+  font-family: Calibri;
+  font-size: 16px;
+  border-bottom: rgb(230, 230, 230) solid 1px;
+}
+
+.botao_notif ul{
+  display: inline-block;
+  padding: 0;
+  margin:0;
+  background-color : white;
+}
+
+
+.botao_notif li{
+  float: left;
+  list-style-type: none;
+  cursor : pointer
+}
+
+.botao_notif li a{
+  display: block;
+  color: black;
+  padding : 10px 0px 6px;
+  font-family: Calibri;
+  font-size : 12px;
+  text-align: center;
+  font-weight: bold;
+  text-decoration: none;
+  width: 140px;
+}
+
+.botao_notif li a img{
+  position: absolute;
+  top : 12px;
+  right : 25px;
+  width: 12px; 
+  height: 12px;
+}
+
+.botao_notif a:hover:not(.ativo) {
+  border-bottom: rgb(0, 0, 0) solid 2px;
+}
+
+.lista{
+  position: relative;
+  display: inline-block;
+}
+
+.lista_content{
+  display: none;
+  position: absolute;
+  background-color: rgb(248, 248, 248);
+  width: 280px;
+  height: 200px;
+  overflow-y: scroll;
+
+  border-radius : 5px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.lista:hover .lista_content{
+  display: block;
+}
+
+.caixa_mensagem{
+  border-top: rgb(230, 230, 230) solid 1px;
+  padding-top : 15px;
+  overflow: auto;
+  z-index: 1;
+}
+
+.caixa_mensagem img {
+  float : left;
+  width :26px; 
+  height: 26px;
+  margin : 0px 10px 15px 15px;
+}
+
+.caixa_mensagem p {
+  margin :0;
+  font-size: 11px;
+  font-family: Calibri;
+}
