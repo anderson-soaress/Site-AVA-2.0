@@ -203,3 +203,146 @@
   font-size: 11px;
   font-family: Calibri;
 }
+
+.atividades{
+  position: relative;
+  float : left;
+  width: 32%;
+  height: 600px;
+  border-right : rgb(230, 230, 230) solid 1px;
+  border-bottom : rgb(230, 230, 230) solid 1px;
+}
+
+.atividades h1{
+  margin : 40px 35px 0px;
+  font-family: calibri;
+}
+
+.atividades button{
+  position: absolute;
+  top : 45px;
+  left : 290px;
+  width: 22px;
+  height: 22px;
+  border-radius:20px;
+  border-width: 0px;
+  padding:0;
+  margin:0;
+  background-color: white;
+}
+
+.atividades button img{
+  display:block;
+  margin-right: auto;
+  margin-left:auto;
+  width: 22px;
+  height: 22px;
+  cursor: pointer;
+}
+
+.atividade_caixa{
+  position: relative;
+  border-radius: 10px;
+  margin : 35px;
+  height: 100px;
+  width: 280px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  margin-bottom: 30px;
+}
+
+.atividade_img{
+  float : left;
+  height: 30px;
+  width: 30px;
+  margin : 20px 20px 10px 25px;
+}
+
+.atividade_caixa a{
+  color: black;
+  text-decoration: none;
+  margin :0;
+  display: inline-block;
+}
+
+.atividade_caixa a p {
+  font-family: calibri;
+  font-size: 15px;
+  padding-top: 12px;
+}
+
+.curso_img{
+  position : absolute;
+  top : 70px;
+  left : 25px;
+  height: 12px;
+  width: 12px;
+}
+
+
+.atividade_caixa_hora{
+  position: absolute;
+  display : inline;
+  top : 56px;
+  left : 50px;
+  font-family: calibri;
+  font-size: 12px;
+}
+
+.cursos{
+  float : left;
+  border-bottom : rgb(230, 230, 230) solid 1px;
+  width: 67%;
+  height: auto;
+}
+
+.cursos h1{
+  margin : 40px 40px;
+  font-family: calibri;
+}
+
+.curso_caixa{
+  position: relative;
+  border-radius: 10px;
+  margin : 40px;
+  height: 60px;
+  width: 500px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  margin-bottom: 30px;
+}
+
+.curso_caixa img{
+  float : left;
+  height: 36px;
+  width: 36px;
+  margin : 12px 20px 10px 13px;
+}
+
+.curso_caixa a{
+  color: black;
+  text-decoration: none;
+  margin :0;
+  display: inline-block;
+}
+
+.curso_caixa p{
+  margin : 0;
+  font-size: 15px;
+  font-family: calibri;
+}
+
+.barra_de_progresso_borda{
+  overflow: auto;
+  margin-top: -15px;
+  margin-left : 250px;
+  height: 6px;
+  width: 200px;
+  border-radius : 10px;
+  background-color: rgb(245, 245, 245);
+}
+
+.barra_de_progresso_porcentagem{
+  
+  background-color: black;
+  height: 6px;
+  width: 50%;
+}
